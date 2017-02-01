@@ -1,0 +1,738 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+
+div.top{
+     height: 55px;
+     width: 910px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+
+div.phone{
+    height: 21px;
+    width: 290px;
+    padding-top: 19px;
+    color: #5e696d;
+    font-family: arial;
+    font-size: 18px;
+    float: left;
+}
+
+
+
+div.vhod{
+    height: 21px;
+    width: 500px;
+    margin-left: 18px;
+    margin-top: 15px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    float: left;
+    font-family: 'Lucida Sans Unicode', arial;
+    font-size: 11px;
+    background:linear-gradient(to top left,#284965,#1e6383);
+    border-radius: 3px;
+}
+
+
+.vhod img{
+    height: 17px;
+    width: 14px;
+    margin-right: 1px;
+    float: left;
+}
+
+input[type="name"]{
+    height: 13px;
+    width: 112px;
+    margin-right: 5px;
+    float: left;
+}
+
+input[type="password"]{
+    width: 112px;
+    height: 13px;
+    float: left;
+}
+
+ul.login{
+    overflow: hidden;
+    position: relative;
+}
+
+li.login{
+    float: left;
+}
+
+.login li a{
+    padding-left: 13px;
+    float: left;
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+a.last:link{
+    font-size: 12px;
+    color: aqua;
+    text-decoration: underline;
+}
+
+
+div.link{
+    height: 22px;
+    width: 76px;
+    margin-top: -28px;
+    margin-right: 13px;
+    border-radius: 10px;
+    clear: both;
+    float: right;
+}
+
+.link a{
+	text-decoration: none;
+}
+
+div.shina{
+    height: 235px;
+    width:910px;
+    margin: 0 auto;
+    margin-top: 2px;
+    background-image: url(img/shina.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.tools{
+    height: 36px;
+    width: 910px;
+
+    margin:0 auto;
+     margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Lucida Sans Unicode', arial;
+    background-color: #1b1d20;
+    border-radius: 6px;
+}
+
+ul.m_knopki{
+    margin-left: 126px;
+    overflow: hidden;
+    position: relative;
+    color: #b1bcc0;
+}
+
+.m_knopki li{
+    float: left;
+    border-radius: 14px;
+}
+
+li.about{
+    height: 24px;
+    width: 127px;
+    padding-top: 6px;
+    margin-top: 1px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+li.pay{
+    height: 24px;
+    width: 75px;
+    margin-top: 2px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+li.delivery{
+    height: 24px;
+    width: 120px;
+    margin-top: 1px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+li.article{
+    height: 24px;
+    width: 65px;
+    margin-top: 1px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+
+li.contact{
+    height: 24px;
+    width: 115px;
+    margin-top: 1px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.tools a{
+	text-decoration: none;
+    color: #b1bcc0;
+}
+
+.tools a:hover{
+     color: white;
+}
+
+
+.m_knopki li:hover{
+     background-color:#1e6383;
+}
+img.koshyk{
+    margin-right:14px;
+    margin-top: -25px;
+    float: right;
+}
+
+main{
+    height: 135px;
+    width: 99%;
+    margin-left: 5%;
+    margin-top: 10px;
+    clear: both;
+}
+
+
+div.poisk1{
+    width: 412px;
+    margin-right: 15px;
+    border: #959595 solid 0.5px;
+    border-radius: 17px;
+    box-shadow: 3px 3px 0 0  #c5c5c5;
+    float: left;
+}
+
+
+div.poisk2{
+    width: 192px;
+    border: #959595 solid 0.5px;
+    border-radius: 17px;
+    box-shadow: 3px 3px 0 0  #c5c5c5;
+    float: left;
+}
+
+
+div.poisk3{
+    width: 260px;
+    border: #959595 solid 0.5px;
+    border-radius: 16px;
+    box-shadow: 3px 3px 0 0  #c5c5c5;
+    float: left;
+    margin-left: 15px;
+}
+
+
+div.slova{
+    height: 10%;
+    font-family: 'Arial Black', arial;
+    font-size: 10px;
+    color: #154468;
+}
+
+li.poisk_avto{
+    font-size: 12px;
+}
+
+
+.slova li{
+    margin-right: 3%;
+    margin-left: 4%;
+    margin-top: 1px;
+    float: left;
+}
+
+
+li.poisk_avto{
+    margin-left: 15%;
+    margin-top: -2px;
+}
+
+li.shini{
+    margin-left: 15%;
+}
+
+div.inputi_1{
+    height: 82px;
+    width: 16px;
+    margin-left: 8px;
+    margin-right: 1.5%;
+    font-size: 10px;
+    font-family: arial;
+    float: left;
+}
+
+li.input_11{
+    margin-top: 11px;
+    margin-left:0.5%;
+}
+li.input_12{
+    margin-top: 5px;
+    margin-left: 0.5%;
+}
+
+li.input_14{
+    margin-top: 2%;
+    margin-left: 0.5%;
+}
+span.colortext{
+    color: #77858b;
+}
+
+div.inputi_2{
+    height: 110px;
+    width: 185px;
+    margin-left: 10px;
+    margin-top: 2.5%;
+    box-sizing: border-box;
+}
+
+select.inputi_s_1{
+    height: 15px;
+    width: 90px;
+    padding-top: 2%;
+    border-bottom: white;
+    margin-left: 65px;
+}
+
+select.inputi_s_2{
+    height: 15px;
+    width: 60px;
+    padding-top: 5px;
+    border-bottom: white;
+    margin-left: 65px;
+}
+
+div.wraper{
+    float: left;
+    height: 88px;
+    width: 196px;
+}
+div.wraper2{
+    height: 88px;
+    width: 196px;
+    margin-right: 13px;
+    margin-bottom: 7px;
+    float: right;
+}
+
+a.poisk{
+    padding-left: 140px;
+    margin-left: 190px;
+    font-style: italic;
+    font-family: arial;
+    font-size: 14px;
+    color: #154467;
+}
+
+
+div.wraper3{
+    font-size: 12px;
+    color: #154467;
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Arial Black', arial;
+}
+
+
+div.razmer{
+    padding-left:3%;
+    padding-top: 3%;
+    float: left;
+    font-family: 'Lucida Sans Unicode', arial;
+    font-size: 10px;
+}
+
+li.r{
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+div.inputi_3{
+    margin-right:50px;
+    padding-top: 3px;
+    float: right;
+}
+
+.inputi_3_1{
+    height: 15px;
+    width: 42px;
+}
+
+.inputi_3_2{
+    height: 15px;
+    width: 42px;
+    padding-left: 2px;
+}
+
+.inputi_3 select{
+    font-size: 11px;
+    font-family: arial;
+}
+
+
+div.inputi_4{
+    width: 60%;
+    margin-left: 28%;
+    padding-top: 3px;
+    font-family: 'Lucida Sans Unicode', arial;
+    font-size: 12px;
+}
+
+input[type="checkbox"]{
+    width: 15px;
+    margin-right: 3px;
+}
+a.poisk0{
+    margin-left: 68%;
+    font-style: italic;
+    font-family: arial;
+    font-size: 14px;
+    color: #154467;
+}
+
+div.wraper5{
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: 'Arial Black', arial;
+    color: #154467;
+}
+
+div.inputi_5{
+    width: 32%;
+    padding-top: 1%;
+    padding-left: 4%;
+    float: left;
+    font-size: 10px;
+    font-family: arial;
+}
+
+
+select.inputi_6_1{
+    height: 1%;
+    width: 19%;
+    border-bottom: white;
+}
+
+
+select.inputi_6_2{
+    height: 1%;
+    width: 18%;
+    margin-top: 11px;
+    margin-bottom: 17px;
+    border-bottom: white;
+}
+
+
+div.inputi_7{
+    width: 20%;
+    margin-top: -100px;
+    margin-right: 7%;
+    padding-left: 3%;
+    float: right;
+    font-size: 8px;
+    font-family: 'Lucida Sans Unicode', arial;
+    border-left: 1px solid #bdc6ca;
+}
+
+select.inputi_7_1{
+    height: 14px;
+    width: 57px;
+    border-bottom: white;
+}
+
+a.poisk_2{
+    margin-right: -16px;
+    float: right;
+    font-style: italic;
+    font-family: arial;
+    font-size: 14px;
+    color: #154467;
+}
+.center{
+    width: 100%;
+    height: 625px;
+    margin-left: 3.5%;
+}
+section{
+    width: 180px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 12px;
+    float: left;
+}
+
+
+
+div.catalog_prod{
+    height: 25px;
+    width: 178px;
+    font-size: 12px;
+    font-family: 'Lucida Sans Unicode', arial;
+    color: #4a6680;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 45px;
+    box-shadow: 2px 3px 0 0  #c5c5c5;
+}
+
+.catalog_prod img{
+    margin-left: 3px;
+    margin-right: 7px;
+    margin-top: 0px;
+    float: left;
+    padding-top: 0;
+}
+
+div.shini{
+    height: 25px;
+    width: 150px;
+    margin-top: 15px;
+    color: #4a6680;
+    font-size: 13px;
+    font-family: 'Lucida Sans Unicode', arial;
+    border: 1px solid;
+    border-radius: 45px;
+    box-shadow: 2px 3px 0 0  #c5c5c5;
+    font-weight: 600;
+}
+
+.shini img{
+    margin-left: 3px;
+    margin-right: 11px;
+    margin-top: 1px;
+    float: left;
+}
+
+div.spisok_1{
+
+    height: 100px;
+    width: 140px;
+    font-size: 13px;
+    margin-left: 25px;
+    font-family: 'Lucida Sans Unicode', arial;
+}
+
+.spisok_1 a{
+    color: #465961;
+    text-decoration: none;
+    margin-left: 1px;
+}
+
+
+.naimenovanie a:hover{
+    color: #0c3256;
+    text-decoration:underline;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.naimenovanie li{
+    list-style-type:circle;
+    margin-left: 28px;
+    margin-top: 3px;
+}
+
+
+
+div.shini_2{
+    height: 20px;
+    width: 149px;
+    margin-top: 1px;
+    color: #4a6680;
+    font-size: 13px;
+    font-family: 'Lucida Sans Unicode', arial;
+    border: 1px solid;
+    border-radius: 45px;
+    box-shadow: 2px 3px 0 0  #c5c5c5;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.shini_2 img{
+    margin-left: 3px;
+    margin-right: 11px;
+    margin-top: 1px;
+    float: left;
+}
+
+div.shini_3{
+    height: 24px;
+    width: 149px;
+    margin-top: 1px;
+    color: #4a6680;
+    font-size: 13px;
+    font-family: 'Lucida Sans Unicode', arial;
+    border: 1px solid;
+    border-radius: 45px;
+    box-shadow: 2px 3px 0 0  #c5c5c5;
+    font-weight: 600;
+}
+
+.shini_3 img{
+    margin-left: 3px;
+    margin-right: 11px;
+    margin-top: 1px;
+    float: left;
+}
+
+
+div.spisok_3{
+    font-size: 13px;
+    font-family: 'Lucida Sans Unicode', arial;
+    height: 100px;
+    width: 140px;
+    padding-left: 23px;
+}
+
+.spisok_3 a{
+    color: #465961;
+    text-decoration: none;
+    margin-left: 1px;
+}
+div.photo{
+    height: 632px;
+    width: 527px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(img/tovar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+aside{
+    width: 183px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+div.shini2{
+    height: 23px;
+    width: 131px;
+    margin-top: 16px;
+    margin-left: 16px;
+    color: #4a6680;
+    font-size: 14px;
+    font-family: 'Lucida Sans Unicode', arial;
+    border: 1px solid;
+    border-radius: 45px;
+    box-shadow: 2px 3px 0 0  #c5c5c5;
+    font-weight: 800;
+}
+
+.shini2 img{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 1px;
+    float: left;
+}
+
+div.catalog_prod2{
+    height: 23px;
+    width: 179px;
+    margin-left: 10px
+    font-size: 10px;
+    font-family: 'Lucida Sans Unicode', arial;
+    color: #4a6680;
+    font-weight: 100;
+    border: 1px solid;
+    border-radius: 45px;
+    box-shadow: 2px 3px 0 0  #c5c5c5;
+}
+.catlog_prod2 img{
+    margin-left: 2%;
+    margin-top: 1px;
+    float: left;
+}
+.naimenovanie3 li{
+    list-style-type:square;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+div.spisok_2{
+    height: 67px;
+    width: 145px;
+    font-size: 13px;
+    font-family: 'Lucida Sans Unicode', arial;
+    padding-left: 35px;
+    padding-top: 5px;
+}
+
+.spisok_2 a{
+    color: #465961;
+    text-decoration: none;
+}
+div.shini3{
+    height: 25px;
+    width: 138px;
+    margin-top: 15px;
+    margin-left: 4%;
+    color: #4a6680;
+    font-size: 14px;
+    font-family: 'Lucida Sans Unicode', arial;
+    border: 1px solid;
+    border-radius: 45px;
+    box-shadow: 2px 3px 0 0  #c5c5c5;
+    font-weight: 800;
+}
+.shini3 img{
+    margin-left: 1%;
+    margin-right: 4%;
+    margin-top: 1px;
+    float: left;
+}
+div.vibrat{
+    height: 18px;
+    width: 80px;
+    font-size: 12px;
+    font-family: arial;
+    border: 1px solid;
+    border-radius: 45px;
+    box-shadow: 2px 3px 0 0  #c5c5c5;
+    background-color: #0f3b60;
+    text-align: center;
+    margin-left: 25px;
+    padding-top: 5px;
+    margin-top: 25px;
+}
+.vibrat a{
+    text-decoration: none;
+    color: #e5e9ea;
+    margin-top:1px;
+}
+
+div.firma{
+    height:68px;
+    margin:0 auto;
+    width: 679px;
+    margin-top: 30px;
+    background-image: url(img/firmi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer{
+    height:90px;
+    width: 912px;
+    margin: 0 auto;
+    margin-top: 3px;
+    background-image: url(img/niz.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
